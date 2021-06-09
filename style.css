@@ -32,6 +32,7 @@ h6{
 /*================ Nav ================*/
 
 .nav{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -121,4 +122,8 @@ h6{
     background-attachment: fixed;
     position: relative;
     
+    
+}
+.back .overlay{
+    background-image: linear-gradient();
 }
