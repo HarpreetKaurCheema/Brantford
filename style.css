@@ -196,7 +196,7 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
      color: #646EE5;
 }
 
-.hero-text .header-btn{
+.hero-text .header-btn .btn-one{
     color: #fff;
 }
 
@@ -207,7 +207,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-background-image: linear-gradient(to roght #535cf1, #A147E4);
+background-image: linear-gradient(to right, #535cf1, #A147E4);
 z-index: -1;
 transition: all 0.3s ease;
 background-position: right center;
