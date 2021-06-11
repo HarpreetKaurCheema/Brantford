@@ -29,6 +29,23 @@ h6{
     font-weight: normal;
 }
 
+.main-btn{
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: 0 32px;
+    font-size: 16px;
+    line-height: 48px;
+    color: #0067f4;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0s;
+    z-index: 5;
+}
+
 /*================ Nav ================*/
 
 .nav{
@@ -142,4 +159,56 @@ h6{
 .back .hero-shape img{
     width: 100%;
     display: block;
+}
+
+.hero-text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.hero-text h6{
+    color: #1d1d1d;
+}
+
+.hero-text .header-btn{
+    margin-top: 22px;
+
+}
+
+.hero-text .header-btn li{
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.hero-text .header-btn li a.main-btn{
+border-radius: 50px;
+overflow: hidden;
+background-color: #fff;
+border: 0;
+line-height: 50px;
+box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+}
+
+.hero-text .header-btn li a.main-btn i{
+     margin-left: 5px;
+     color: #646EE5;
+}
+
+.hero-text .header-btn{
+    color: #fff;
+}
+
+.hero-text .header-btn .btn-one::before{
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: linear-gradient(to roght #535cf1, #A147E4);
+z-index: -1;
+transition: all 0.3s ease;
+background-position: right center;
 }
