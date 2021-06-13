@@ -212,3 +212,14 @@ z-index: -1;
 transition: all 0.3s ease;
 background-position: right center;
 }
+
+
+.hero-text .header-btn .btn-one:hover:before{
+    background-image: linear-gradient(to left, #535cf1, #A147E4);
+    background-position: left center;
+}
+
+.hero-text .header-btn .btn-two:hover:before{
+
+    box-shadow: 0 3px 25px 0 rgba(0,0,0,0.16);
+}
