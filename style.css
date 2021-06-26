@@ -239,6 +239,10 @@ background-position: right center;
     text-align: center;
 }
 
+.service h6{
+    margin-bottom: 6rem;
+}
+
 .service .service-content{
     display: flex;
     flex-direction: row;
@@ -278,6 +282,14 @@ background-position: right center;
    color: #535cf1;
     
 }
+
+.service .service-content .box .box-one .services .service-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+ }
 
 .service .service-content .service-img{
     width: 40%;
