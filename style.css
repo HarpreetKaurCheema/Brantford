@@ -261,7 +261,7 @@ background-position: right center;
 .service .service-content .box .box-one{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     
 }
