@@ -310,7 +310,7 @@ background-position: right center;
 }
 .pricing .basic{
     width: 355px;
-    height:100px;
+    height:100%;
     border:1px solid #535CF1;
     border-radius: 20px;
 }
