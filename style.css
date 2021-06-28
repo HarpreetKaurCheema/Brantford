@@ -387,3 +387,62 @@ background-position: right center;
     border:1px solid #2ecc71;
     color:#1d1d1d;
 }
+
+.callToAct{
+    background-image: linear-gradient(to right,rgba(255,0,0,0),#910AFA), url(assets/images/web2.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 50px;
+}
+.callToAct .parallax{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.callToAct .parallax h3,.callToAct .parallax p{
+
+    color: #fff;
+}
+.callToAct .parallax p{
+font-size: 18px;
+padding: 20px,0;
+}
+.callToAct .parallax .call-news{
+    background-color: #fff;
+    max-width: 450px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 12px 0 12px 15px;
+    position: relative;
+}
+
+.callToAct .parallax .call-news i{
+    color: #535CF1;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.callToAct .parallax .call-news input{
+    border:none;
+    outline: none;
+    font-size: 18px;
+}
+.callToAct .parallax .call-news button{
+    background-image: linear-gradient(to right,#535CF1,#A147E4);
+    border:none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    padding:15px 20px;
+    cursor:pointer;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+
