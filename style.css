@@ -237,6 +237,7 @@ background-position: right center;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 .service h6{
@@ -303,6 +304,7 @@ background-position: right center;
 .pricing{
     display: block ;
     text-align: center;
+    margin-bottom: 10rem;
 
 }
 .pricing h6{
@@ -396,7 +398,7 @@ background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    margin-top: 50px;
+    margin-bottom: 10rem;
 }
 .callToAct .parallax{
     position: absolute;
@@ -446,3 +448,64 @@ padding: 20px,0;
 }
 
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact h6{
+    margin-bottom: 3rem;
+}
+.contact .form{
+    width: 70%
+}
+
+.contact .form .first-row, .contact .form .first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.contact .form .first-row input, .contact .form .first-row input{
+    width: 47%;
+    height: 56px;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact .form textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 25px;
+    font-size: 16px;
+    outline: none;
+    font-family: "Poppins" , sans-serif;
+    padding-top: 15px;
+
+}
+
+.contact .form .header-btn{
+    margin: 2rem auto;
+    width: 170px;
+
+}
+
+.contact .form .header-btn a{
+    background-image: linear-gradient(to right,#535CF1,#A147E4);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    outline: none;
+
+}
