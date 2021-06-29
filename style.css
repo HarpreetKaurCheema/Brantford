@@ -509,3 +509,28 @@ padding: 20px,0;
     outline: none;
 
 }
+
+/*===========================Footer===========================*/
+
+footer{
+    background-color: #F4F6F7;
+    padding: 7rem;
+}
+
+footer .row-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer .row-one ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer .row-one a{ 
+    padding-right: 20px;
+    font-size: 26px;
+    color: #6c6c6c;
+}
