@@ -58,9 +58,12 @@ h6{
     padding: 1rem 6.5rem;
     background: transparent;
     transition: all 0.5s ease;
-    z-index: 10000;
-
-    
+    z-index: 10000;    
+}
+.nav .scrolled{
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 7px 10px 15px rgba(0,0,0,0,3);
 }
 
 .nav .navbar-toggler{
@@ -601,4 +604,18 @@ cursor:pointer;
 
 footer .second-row  .text{
 margin-top: 16px;
+}
+
+.copyright{
+    background-color: #2b354f;
+    padding:23px 0;
+}
+.copyright p{
+    text-align: center;
+    color: #fff;
+
+}
+
+.copyright p a{
+    color:#1ABC9C;
 }
