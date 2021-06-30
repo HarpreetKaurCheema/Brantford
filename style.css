@@ -623,3 +623,109 @@ margin-top: 16px;
 .copyright p a{
     color:#1ABC9C;
 }
+
+@media only screen and (max-width: 946px){
+
+    .nav{
+        padding: 1rem 3rem;
+    }
+
+    .nav .navbar-social{
+        display: none;
+    }
+
+   
+.hero-text{
+width: 60%
+}
+
+.hero-text h3{
+    font-size: 33px;
+}
+
+.hero-text h6{
+    color: #1d1d1d;
+}
+
+.hero-text .header-btn{
+    margin-top: 22px;
+
+}
+
+.hero-text .header-btn li{
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.hero-text .header-btn li a.main-btn{
+border-radius: 50px;
+overflow: hidden;
+background-color: #fff;
+border: 0;
+line-height: 50px;
+box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+}
+
+.hero-text .header-btn li a.main-btn i{
+     margin-left: 5px;
+     color: #646EE5;
+}
+
+.hero-text .header-btn .btn-one{
+    color: #fff;
+}
+
+#wrapper{
+    margin: 3rem 3rem 10rem 3rem;
+}
+
+.service{
+    margin-bottom: 3rem;
+}
+
+.service h6{
+    margin-bottom: 3rem;
+}
+
+.service .service-content{
+  
+    flex-direction: column-reverse;
+    justify-content: center;
+   
+}
+
+.service .service-content .box{
+    width: 100%;
+}
+
+.service .service-content .box .box-one{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+
+
+.service .service-content .service-img{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.service .service-content .service-img img{
+    width: 100%;
+}
+        
+}      
+
+
+@media only screen and (max-width: 774px){
+
+}
+
+@media only screen and (max-width: 541px){
+
+}
+
