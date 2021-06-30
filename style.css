@@ -717,9 +717,32 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
 .service .service-content .service-img img{
     width: 100%;
 }
-        
-}      
 
+.pricing .table{
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+
+}
+
+.pricing .basic{
+    margin-bottom: 3rem;
+}
+
+.callToAct{
+    
+    margin-bottom: 5rem;
+}
+.callToAct .parallax{
+   width: 80%; 
+}
+
+.contact .form{
+    width: 80%
+}
+
+        
+  
+}
 
 @media only screen and (max-width: 774px){
 
