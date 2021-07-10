@@ -746,6 +746,46 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
 
 @media only screen and (max-width: 774px){
 
+
+    .nav{
+        padding: 0.7rem 1rem;
+    }
+
+    .nav .navbar-toggler{
+        display: block;
+        position: absolute;
+        top: 26px;
+        right: 16px;
+        z-index: 1000000;
+    }
+    
+    .nav .menu-bar{
+        position: fixed;
+        top: 55px;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        background-color: rgba(256, 256, 256, 0.9);
+
+    }
+    
+    .nav .menu-bar .menu-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: justify;
+        padding: 40px 0;
+    
+    }
+    
+    .nav .menu-bar .menu-items li{
+        margin: 2rem 30px;
+    
+    }
+    
+   
+    
 }
 
 @media only screen and (max-width: 541px){
