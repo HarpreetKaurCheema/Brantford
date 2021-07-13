@@ -783,8 +783,103 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
         margin: 2rem 30px;
     
     }
+
+    .hero-text{
+        width:80%;
+    }
+
+    .hero-text h6{
+        font-size: 16px;
+    }
     
-   
+    #wrapper{
+        margin: 3rem 1rem 10rem 1rem;
+    }
+    
+    .service{
+        margin-bottom: 3rem;
+    }
+    
+    .service h3{
+        font-size: 33px;;
+    }
+
+    .service h6{
+        font-size: 16px;;
+    }
+    
+    .service .service-content .service-img{
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+    
+    .service .service-content .service-img img{
+        width: 100%;
+    }
+    .pricing h3{
+        font-size: 33px;
+    }
+    .pricing h6{
+         font-size: 16px;   
+    }
+    .pricing .table{
+        flex-direction: column;
+        justify-content: center;
+       flex-wrap: nowrap;
+    
+    }
+    
+    .pricing .basic{
+        margin-bottom: 3rem;
+    }
+    
+    .callToAct{
+        
+        margin-bottom: 5rem;
+    }
+    .callToAct .parallax{
+       width: 90%; 
+    }
+    .callToAct .parallax h3{
+        font-size: 33px;
+    }
+
+    .callToAct .parallax h6{
+        font-size: 16px;
+    }
+
+    .callToAct .parallax .call-news input{
+        font-size: 16px;
+    }
+    .callToAct .parallax .call-news button{
+        font-size: 15px;
+    }
+    
+    .contact h3{
+        font-size: 33px;
+    }
+
+    .contact h6{
+        font-size: 16px;
+    }
+    .contact .form{
+        width: 80%
+    }
+    .contact .form .header-btn a{
+        font-size: 16px;
+    }
+
+    footer{
+        padding: 4rem 1rem;
+    }
+
+    footer .second-row{
+        flex-wrap:wrap;
+    }
+
+    footer .second-row .first-row{
+        margin-bottom: 1rem;
+    }
     
 }
 
