@@ -894,6 +894,10 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
         margin-top: 0.7rem;
     }
 
+    .hero-text .header-btn li a.main-btn{
+        font-size: 15px;
+    }
+
     .service {
         display: flex;
         flex-direction: column;
@@ -928,7 +932,7 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
     .callToAct .parallax .call-news{
         width:300px;
         height:55px;
-        padding: 0 12px 0 12px;
+        padding: 12px 0 12px 0;
         display: block;
         vertical-align: middle;
         align-items: center;
@@ -938,7 +942,7 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
         font-size: 13px;
         position: relative;
         margin: 35px 0 0 0;
-        background-color: #fff;
+        background: #fff;
         color: #8B16D1;
     }
     .contact .form{
