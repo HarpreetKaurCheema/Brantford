@@ -885,5 +885,83 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
 
 @media only screen and (max-width: 541px){
 
+    .hero-text h3 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .hero-text .header-btn li a.main-btn{
+        margin-top: 0.7rem;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .service h6{
+        text-align: justify;
+    }
+
+    .service .service-content .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+       
+    }
+    .service .service-content .box .box-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .callToAct .parallax h3{
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .callToAct .parallax .call-news{
+        width:300px;
+        height:55px;
+        padding: 0 12px 0 12px;
+        display: block;
+        vertical-align: middle;
+        align-items: center;
+    }
+
+    .callToAct .parallax .call-news button{
+        font-size: 13px;
+        position: relative;
+        margin: 35px 0 0 0;
+        background-color: #fff;
+        color: #8B16D1;
+    }
+    .contact .form{
+        width: 100%;
+    }
+    
+    .contact .form .first-row, .contact .form .first-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact .form .first-row{
+        margin: 0 0;
+    }
+
+    .contact .form .first-row input, .contact .form .first-row input{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+   
+
 }
 
