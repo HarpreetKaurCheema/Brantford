@@ -965,7 +965,23 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
         margin-bottom: 2rem;
     }
     
-   
+   .services{
+       margin: 90px auto;
+       text-align: center;
+   }
 
+    .services h1{
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .services h1:after{
+        
+        content: '';
+        background: white;
+        display: block;
+        width: 150px;
+        margin: 10px auto;
+    }
 }
 
