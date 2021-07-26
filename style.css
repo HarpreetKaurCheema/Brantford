@@ -60,7 +60,7 @@ h6{
     align-items: center;
     width: 100%;
     padding: 1rem 6.5rem;
-    background: transparent;
+    background: linear-gradient(to right,#535CF1,#A147E4); 
     transition: all 0.5s ease;
     z-index: 100000;    
 }
@@ -106,7 +106,7 @@ h6{
 }
 
 .nav .menu-bar .menu-items li a:hover{
-    color: #4F47E4;
+    color:white;
 }
 
 .nav .navbar-social{
@@ -119,7 +119,7 @@ h6{
     font-size: 18px;
     font-weight: 600;
     padding-right: 10px;
-    color: #6c6c6c;
+    color: black;
 
 }
 
@@ -134,8 +134,41 @@ h6{
 }
 
 .nav .navbar-social ul li a{
- color: #6c6c6c;
+ color: black;
  font-size: 22px;
+}
+
+/*================= Dropdown ==================*/
+
+.sub-menu{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background:linear-gradient(to right,#535CF1,#A147E4); 
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
 }
 
 /*================ Home ================*/
@@ -784,6 +817,8 @@ box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
     
     }
 
+      
+     
     .hero-text{
         width:80%;
     }

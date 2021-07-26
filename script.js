@@ -18,3 +18,4 @@ menu.onclick = function(){
         items.style.right = "-360px";
     }
 }
+
